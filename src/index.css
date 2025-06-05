@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Clash-Bold;
+  src: url(/fonts/ClashDisplay-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Clash-Medium;
+  src: url(/fonts/ClashDisplay-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Clash-Regular;
+  src: url(/fonts/ClashDisplay-Regular.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Clash-Semibold;
+  src: url(/fonts/ClashDisplay-Semibold.woff2) format("woff2");
+  font-display: swap;
+}
+@theme {
+  --font-Bold: Clash-Bold;
+  --font-Medium: Clash-Medium;
+  --font-Regular: Clash-Regular;
+  --font-Semibold: Clash-Semibold;
+}
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.css-qy63vk {
+  padding: 0 !important;
+}
+.css-9ua0p3 {
+  padding: 0 !important;
+}
+/* Media */
+@media (max-width: 1427px) {
+  .icon {
+    justify-content: center !important;
+    flex-direction: column;
+  }
+  .contact {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .container-about {
+    flex-direction: column;
+  }
+  .mailbox {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 0;
+    height: 330px;
+    object-fit: cover;
+  }
+  .text-about {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 2rem;
+  }
+}
