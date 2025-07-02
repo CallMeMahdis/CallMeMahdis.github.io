@@ -15,7 +15,7 @@ const Home: React.FC = () => {
             md:col-start-9 md:col-end-12 md:row-start-2 md:row-end-3
             col-start-7 col-end-9 row-start-1 row-end-2
             lg:rotate-12 md:rotate-12 rotate-[-12deg]
-            animate__animated animate__bounceInRight
+            animate__animated animate__bounceInRight laptop
           "
       >
         <img
