@@ -64,6 +64,6 @@
     border-bottom-right-radius: 2rem;
   }
   .laptop {
-    display: hidden;
+    display: hidden !important;
   }
 }
