@@ -63,4 +63,7 @@
     border-top-left-radius: 0;
     border-bottom-right-radius: 2rem;
   }
+  .laptop {
+    display: hidden;
+  }
 }
