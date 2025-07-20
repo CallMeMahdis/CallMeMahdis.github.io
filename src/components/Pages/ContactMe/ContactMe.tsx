@@ -46,11 +46,11 @@ const ContactMe: React.FC = () => {
             <a
               target="_blank"
               className="flex flex-wrap flex-row items-center gap-2 px-2 py-3 hover:text-[#74674d] icon md:px-1 md:py-2"
-              href="https://www.linkedin.com/in/mahdis-ze"
+              href="www.linkedin.com/in/mohadeseh-zeynabi-5497061b0"
             >
               <IoLogoLinkedin className="text-[#291c03] w-[30px] h-[30px]" />
               <span className="font-Medium whitespace-nowrap contact">
-                linkedin.com/mahdis-ze
+                linkedin.com/mohadeseh-zeynabi
               </span>
             </a>
           </div>
